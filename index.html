@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <h2>New Year's Eve in</h2>
+
+    <div class="countdown-container">
+        <div class="digit-container months-c">
+            <p class="bigtext" id="months">
+                0
+            </p>
+            <span>Months</span>
+        </div>
+
+        <div class="digit-container days-c">
+            <p class="bigtext" id="days">
+                0
+            </p>
+            <span>Days</span>
+        </div>
+
+        <div class="digit-container hours-c">
+            <p class="bigtext" id="hours">
+                0
+            </p>
+            <span>Hours</span>
+        </div>
+
+        <div class="digit-container minutes-c">
+            <p class="bigtext" id="minutes">
+                0
+            </p>
+            <span>Minutes</span>
+        </div>
+
+        <div class="digit-container seconds-c">
+            <p class="bigtext" id="seconds">
+                0
+            </p>
+            <span>Seconds</span>
+        </div>
+    </div>
+    <button class='btn update-year' onclick="updateYear()">Enter Year</button>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
