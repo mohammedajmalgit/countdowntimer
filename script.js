@@ -10,7 +10,7 @@ var nextYear = new Date('1 Jan '+(new Date().getFullYear()+1))
 function updateYear(year){
     var value = prompt("Enter Year")
     // nextYear = new Date('1 Jan '+ value);
-    if(value<new Date().getFullYear()){
+    if(value<=new Date().getFullYear()){
         console.log("current Year:", new Date().getFullYear());
         console.log('Entered Year:', value)
         alert('Enter a future year')
